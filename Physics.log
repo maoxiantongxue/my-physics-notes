@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.6.20)  21 JUN 2024 21:47
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.6.20)  21 JUN 2024 22:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1338,7 +1338,9 @@ Package amsmath Warning: Foreign command \atop;
 
 
 
-[24] (Physics.aux)
+[24]
+
+[25] (Physics.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 1
 L3 programming layer <2022/07/14>
@@ -1347,12 +1349,12 @@ Package rerunfilecheck Info: File `Physics.out' has not changed.
 (rerunfilecheck)             Checksum: 58BA5A8FD31F1E2B2EE6A231D9C82B78;2156.
  ) 
 Here is how much of TeX's memory you used:
- 37089 strings out of 409049
- 822499 string characters out of 5764299
+ 37090 strings out of 409049
+ 822515 string characters out of 5764299
  1951560 words of memory out of 5000000
- 59200 multiletter control sequences out of 15000+600000
+ 59201 multiletter control sequences out of 15000+600000
  572683 words of font info for 134 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  93i,19n,111p,559b,956s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Physics.pdf (29 pages).
+Output written on Physics.pdf (30 pages).

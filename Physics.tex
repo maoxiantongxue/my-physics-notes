@@ -782,6 +782,31 @@ w=f(z) = \sqrt{z} = z^{1/2} = \sqrt{r}e^{i\left( \frac{\theta}{2} + k\pi \right)
     \]
 \end{definition}
 
-可以发现导数其实是变化率的极限,这点与一元实变函数类似.
+可以发现导数其实是变化率的极限,这点与一元实变函数类似.因此,复变函数的一些性质与实变函数类似.
+
+\begin{enumerate}
+    \item 如果函数在 $z_0$ 处可到,则函数必在 $z_0$ 点连续.
+    \item 实变函数的求导法则可以推广到复变函数.
+    \item 无穷远点的导数的计算方式,是比较特别的.需要先进行 $\zeta = 1/z$ 的变换,接着对 $f(z)=f(1/\zeta)$ 进行求导,从而有
+    \[
+    \left( \derivative{f(z)}{z} \right)_{z=\infty} \xLongrightarrow{z=1/\zeta} \left( \derivative{f(1/\zeta)}{1/\zeta} \right)_{\zeta=0} = -\zeta^2\left( \derivative{f(1/\zeta)}{\zeta} \right)_{\zeta=0}
+    \]
+    \item 实变函数的导数只需 $\displaystyle\lim_{x\to x_0}\frac{f(x)-f(x_0)}{x-x_0}$ 的左右极限相等,而复变函数则要求无论 $\Delta z$ 以何种方式趋于 0,极限均存在且相等,可见复变函数可导的要求十分苛刻,但其性质更为丰富.
+\end{enumerate}
+
+从导数开始,复变函数开始有别于两个有序的二元实变函数.
+
+\begin{definition}
+    若函数变化值 $\Delta w=f(z+\Delta z)-f(z)$ 可写成
+    \[
+        \Delta w=\alpha\Delta z+o(\rho)
+    \]
+    其中
+    \begin{align*}
+        &\rho=\left( (\Delta x)^2+(\Delta y)^2 \right)^{1/2} \\
+        &\lim_{\Delta z\to 0}\frac{o(\rho)}{\Delta z}=0
+    \end{align*}
+    那么我们称函数 $w$ 在 $z$ 点可微, $\D w=\alpha\Delta z$ 称为 $f(z)$ 在 $z$ 点的微分.其意思大致就是,线性近似是可行的.
+\end{definition}
 
 \end{document}
